@@ -5,9 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card.login {
+  padding: 30px 50px;
+}
+
+#search
+{
+  -moz-border-radius: 3px;
+  border-radius: 3px 0 0 3px;
+  padding:5px;
+  height: 29px;
+  background:transparent;
+  ;
+}
+div .col .row {
+  position: relative;
+
+}
+
+.row .col.s10 {
+  padding-right: 0;
+  padding-left: 0;
+}
+div.section.searchbar {
+  height:350px;
+  background-color:#0D63C9;
+}
+
+
+div .col.s2 {
+  padding: 0;
+}
+
+li .black-text {
+  font-size:15px;
+  padding: 0 5px;
+}
+
+.brand-logo img {
+  margin:  10px 0 0 0;
+}
+#search_btn {
+  position: absolute;
+  width: 9em;
+  text-transform: unset;
+  border-radius: 0 3px 3px 0;
+  height: 40px;
+
+}
+
+h3 {
+  font-weight: lighter;
+  
+}
+h4 {
+  font-weight: bold;
+  color: #0D63C9
+  
+}
+
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+form button {
+  width: 100%;
+}
+form h5{
+  margin: 20px 0;
+}
+
+
+
